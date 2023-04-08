@@ -1,0 +1,42 @@
+@import url(variables.css);
+@import url(screens/playlist-screen.css);
+@import url(screens/music-screen.css);
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.screen{
+    margin: 50px 0;
+    width: 320px;
+    height: 670px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0px 4px 20px 10px rgba(216,117,148,0.6);
+}
+
+.screen-icons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.screen-icons i{
+    margin: 25px 30px;
+    font-size: 20px;
+}
+
+main{
+    text-align: center;
+}
+
+
+/*musician screen*/
+

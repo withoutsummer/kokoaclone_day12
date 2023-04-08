@@ -1,0 +1,102 @@
+
+
+.musician-screen__album-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px 0px rgba(216,117,148,0.5);
+    margin-top: 25px;
+}
+
+.musician-screen__text{
+    margin-top: 35px;
+}
+
+.musician-screen__title{
+    padding: 15px 0;
+    font-size: 25px;
+}
+
+.musician-screen__subtitle{
+    color: var(--main-color);
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+
+.progress-buttons{
+    margin: 70px 0;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.progress-buttons button{
+    border: none;
+    background-color:transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.progress-buttons .fa-repeat,
+.fa-shuffle{
+    color: var(--main-color);
+    opacity: 0.4;
+    font-size: 17px;
+
+}
+
+.progress-buttons .fa-play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: black;
+    border: 0;
+    width: 45px;
+    height: 45px;
+    color: var(--main-color);
+    font-size: 22px;
+    box-shadow: 0px 0px 6px 1px rgb(0,0,0,0.4);
+}
+
+
+
+.progress-time-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.progress-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:10px;
+    margin-top: 3px;
+}
+
+.progress{
+
+    width: 265px;
+    height: 4px;
+    border-radius: 5px;
+    border: 1px solid rgb(0,0,0,0.4);
+    
+}
+.progress .blue-line{
+    width: 65%;
+    height: 100%;
+    background-color: black;
+}
+.progress-circle{
+    position: relative;
+    right: 100px;
+    width: 11px;
+    height: 11px;
+    background: var(--main-color);
+    box-shadow: 0px 0px 2px 1px var(--main-color);
+    border-radius: 50%;
+}
